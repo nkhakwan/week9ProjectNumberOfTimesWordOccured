@@ -28,10 +28,12 @@ namespace WordInASentence
 
     public void NumberOfTimes (string Word, string Sentence)
     {
-      string [] MyArray = Sentence.Split(" ");
+      string TheWord = Word.ToLower();
+      string TheSentence =Sentence.ToLower();
+      string [] MyArray = TheSentence.Split(" ");
       for (int i=0; i<MyArray.Length; i++)
       {
-        if (Word == MyArray[i])
+        if (TheWord == MyArray[i])
         {
           GrandTotal += 1;
         }
