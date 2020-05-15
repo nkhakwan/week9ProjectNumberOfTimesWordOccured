@@ -52,7 +52,7 @@ namespace WordInASentence
       MyRepeatCounter.DoesItContain(Word, Sentence);
 
       // Assert
-      Assert.AreEqual(1,MyRepeatCounter.WordIsThere);
+      Assert.AreEqual(0,MyRepeatCounter.WordIsThere);
 
     }
 
@@ -69,7 +69,7 @@ namespace WordInASentence
        MyRepeatCounter.NumberOfTimes(Word, Sentence);
 
       // Assert
-      Assert.AreEqual(2, MyRepeatCounter.GrandTotal);
+      Assert.AreEqual(0, MyRepeatCounter.GrandTotal);
 
     }
   }
