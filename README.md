@@ -41,8 +41,11 @@ _Have a bug or an issue with this application? email post_khan@Yahoo.com_
 
 ## Testing Specs
 ###  Input | OutPut | Description
-##### string Sentence and string Word  passed to DoesItContain method| "WordIsThere" updated with Boolean | A sentence and a word would be passed to the function and seen if the word is contained in the sentence if yes the function would make a field go "true"
-##### String Sentence and String Word passed to NumberOfTimes Method | GrandTotal would update | Method NumberOfTimes would update GrandTotal with the number
+##### string Sentence and string Word  passed to "DoesItContain" method| "WordIsThere" updated with 1 | A sentence and a word would be passed to the function and seen if the word is contained in the sentence if yes the function would make "WordIsThere" field to  go "one".
+##### String Sentence and String Word passed to "NumberOfTimes" Method | "GrandTotal"  would update | Method NumberOfTimes would update GrandTotal with the number of times the word occurs in a sentence
+##### Word and Sentence not containing the Word is passed to "DoesItContain" method| "GrandTotal" is Zero | Sentence would not contain the word and it is expected the field "WordIsThere" remains Zero.
+##### Word and Sentence not containing the word is passed to "NumberOfTimes" Method | "GrandTotal" is Zero | Since the sentence doesn't contain the word it is expected GrandTotal would remain Zero
+
 
 
 
