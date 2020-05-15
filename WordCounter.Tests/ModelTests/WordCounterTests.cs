@@ -11,6 +11,7 @@ namespace WordInASentence
     public void DoesItContain_ChecksIfWordIsContained_WordIsThereUpdated()
     {
       // Arrange
+      //Good empty test passed
       
 
       // Act
