@@ -17,7 +17,7 @@ _This Project counts number of times a word occurs in a particular sentence. Bot
 
 ## Known Bugs
 
-None so far
+None
 
 ## Support and contact details
 
