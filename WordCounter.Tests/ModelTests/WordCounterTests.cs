@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Shapes.Models;
+using WordInASentence;
 
 
 namespace WordInASentence
