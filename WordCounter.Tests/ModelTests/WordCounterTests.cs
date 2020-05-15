@@ -11,14 +11,15 @@ namespace WordInASentence
     public void DoesItContain_ChecksIfWordIsContained_WordIsThereUpdated()
     {
       // Arrange
-      //Good empty test passed
-      
+      string Word = "cat";
+      string Sentence = "My cat lives in Petcat village with other cats that look like cat";
 
       // Act
-      
+      RepeatCounters MyRepeatCounter = new RepeatCounters();
+      MyRepeatCounter.DoesItContain(Word, Sentence);
 
       // Assert
-      
+      Assert.AreEqual(1,MyRepeatCounter.WordIsThere);
 
     }
 
@@ -26,13 +27,16 @@ namespace WordInASentence
     public void NumberOfTimes_ChecksWhetherCountedWordCorrect_GrandTotalIsUpdated()
     {
       // Arrange
-      
+      string Word = "cat";
+      string Sentence = "My cat lives in Petcat village with other cats that look like cat";
+
 
       // Act
-      
+       RepeatCounters MyRepeatCounter = new RepeatCounters();
+       MyRepeatCounter.NumberOfTimes(Word, Sentence);
 
       // Assert
-      
+      Assert.AreEqual(2, MyRepeatCounter.GrandTotal);
 
     }
   }

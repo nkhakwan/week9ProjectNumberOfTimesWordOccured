@@ -7,12 +7,12 @@ namespace WordInASentence
   {
     public static Dictionary<int,string> WordsContainer {get; set;}
     public int  GrandTotal {get; set;}
-    public bool  WordIsThere {get; set;}
+    public int  WordIsThere {get; set;}
     public RepeatCounters()
     {
       WordsContainer = new Dictionary <int,string> { {1,""}, {2,""}, {3,""}, {4, ""},{5, ""},{6,""},{7,""} };
       GrandTotal =0;
-      WordIsThere = false;
+      WordIsThere = 0;
 
     }
     
