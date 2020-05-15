@@ -1,12 +1,12 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WordInASentence;
 
+
 namespace WordInASentence
 {
   [TestClass]
   public class RepeatCounterTests
   {
-
     [TestMethod]
     public void DoesItContain_ChecksIfWordIsContained_WordIsThereUpdated()
     {
@@ -52,7 +52,7 @@ namespace WordInASentence
       MyRepeatCounter.DoesItContain(Word, Sentence);
 
       // Assert
-      Assert.AreEqual(0,MyRepeatCounter.WordIsThere);
+      Assert.AreEqual(1,MyRepeatCounter.WordIsThere);
 
     }
 
@@ -69,7 +69,7 @@ namespace WordInASentence
        MyRepeatCounter.NumberOfTimes(Word, Sentence);
 
       // Assert
-      Assert.AreEqual(0, MyRepeatCounter.GrandTotal);
+      Assert.AreEqual(2, MyRepeatCounter.GrandTotal);
 
     }
   }

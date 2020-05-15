@@ -14,8 +14,7 @@ namespace WordInASentence
       Console.WriteLine("Now please enter your sentence");
       string Sentence = Console.ReadLine();
       MyCounter.DoesItContain(Word, Sentence);
-      Console.WriteLine($"here is the word is there{MyCounter.WordIsThere}");
-      Console.WriteLine($"here is the MyTotal{MyCounter.GrandTotal}");
+      Console.WriteLine($"You entered {Word}, {MyCounter.GrandTotal} Times");
       
       
       
