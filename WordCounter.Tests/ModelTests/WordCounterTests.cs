@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WordInASentence;
+// confirmed tests fail before writing the code
 
 
 namespace WordInASentence
