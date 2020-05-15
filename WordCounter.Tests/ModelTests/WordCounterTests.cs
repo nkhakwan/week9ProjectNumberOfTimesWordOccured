@@ -1,6 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WordInASentence;
-// confirmed tests fail before writing the code
 
 
 namespace WordInASentence
@@ -29,7 +28,7 @@ namespace WordInASentence
     {
       // Arrange
       string Word = "cat";
-      string Sentence = "My cat lives in Petcat village with other cats that look like cat";
+      string Sentence = "My Cat lives in Petcat village with other cats that look like Cat";
 
 
       // Act
